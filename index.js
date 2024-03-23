@@ -49,7 +49,7 @@ setTimeout(function() {
     addToCartButtons2.forEach(function(button) {
         button.style.zIndex = '1'; // Move the button to the front
     });
-}, 1500); // 1500 milliseconds = 1.5 seconds
+}, 1500); // 1500 milliseconds = 1500 seconds
 
 }
 
