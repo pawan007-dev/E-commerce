@@ -18,6 +18,20 @@ body{
     
 }
 
+.Fashion1 {
+    
+    margin-top: 10%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 140px;
+    background-color:  #1D232C ;
+    color: #F2F4F7;
+    border-radius: 10px;
+    text-decoration:solid;
+    text-align: center;
+
+}
+
 .navbar{
         display: flex;
         justify-content: space-between;
@@ -80,7 +94,7 @@ body{
 .Header{
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 20px;
     padding: 60px;
     background-color:pale;
     
@@ -279,19 +293,25 @@ p.thick{
     border-radius: 10px;
 }
 
+
+
 .Addtocart{
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 140px;
     background-color: #1D232C;
     color: white;
     cursor: pointer;
     border-radius: 10px;
-    position:relative;
+    position: relative;
 }
+
 
 .Addtocart1{
     padding-left: 20px;
@@ -300,8 +320,9 @@ p.thick{
     padding-bottom: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 140px;
     background-color: #1D232C;
     color: white;
     cursor: pointer;
@@ -309,21 +330,7 @@ p.thick{
     position: relative;
 }
 
-.Addtocart2{
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    background-color: #1D232C;
-    color: white;
-    cursor: pointer;
-    border-radius: 10px;
-    position: relative;
-}
+
 
 
 
@@ -425,9 +432,17 @@ p.thick{
         margin-left: 50px;
         margin-right: 50px;
     }
-    
-    
-       
+
+    .Addtocart{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .Addtocart1{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
 }
 
 
