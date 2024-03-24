@@ -303,9 +303,18 @@ p.thick{
     flex-basis: 20%;
 }
 
+.product-box1{
+    text-align: center;
+    flex-basis: 20%;
+}
+
 
 
 .product-box img{
+    border-radius: 10px;
+}
+
+.product-box1 img{
     border-radius: 10px;
 }
 
@@ -458,6 +467,16 @@ p.thick{
         margin-left: 30px;
         margin-right: 30px;
     }
+
+    .product-box1{
+        text-align: center;
+        flex-basis: 20%;
+        margin-left: 30px;
+        margin-right: 30px;
+        
+    }
+
+
 
 }
 
