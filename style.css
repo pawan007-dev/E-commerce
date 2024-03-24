@@ -32,6 +32,22 @@ body{
 
 }
 
+.Fashion2 {
+    
+    margin-top: 10%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 140px;
+    background-color:  #1D232C ;
+    color: #F2F4F7;
+    border-radius: 10px;
+    text-decoration:solid;
+    text-align: center;
+
+}
+
 .navbar{
         display: flex;
         justify-content: space-between;
@@ -438,9 +454,9 @@ p.thick{
         margin-right: 20px;
     }
 
-    .Addtocart1{
-        margin-left: 0px;
-        margin-right: 0px;
+    .Fashion2{
+        margin-left: 30px;
+        margin-right: 30px;
     }
 
 }
