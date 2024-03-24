@@ -3,25 +3,32 @@ var sidenav = document.querySelector(".side-navbar")
 function showNavbar()
 {
     sidenav.style.left="0"
-
-    // Move the "Add to Cart" buttons (Addtocart) behind the side navbar
-  var addToCartButtons = document.querySelectorAll('.Addtocart');
-  addToCartButtons.forEach(function(button) {
-      button.style.zIndex = '-1'; // Move the button behind the side navbar
-  });
 }
 
 function closeNavbar()
 {
     sidenav.style.left="-60%"
-
-    // Bring the "Add to Cart" buttons (Addtocart) back to the front after 2 seconds
-setTimeout(function() {
-    var addToCartButtons = document.querySelectorAll('.Addtocart');
-    addToCartButtons.forEach(function(button) {
-        button.style.zIndex = '1'; // Move the button to the front
-    });
-}, 1500); // 1500 milliseconds = 1.5 seconds
 }
+
+var productContainer = document.getElementById("products")
+var search =document.getElementById("search")
+var productlist = productContainer.querySelectorAll("div")
+
+search.addEventListener("keyup",function(){
+    var enteredValue = event.target.value.toUpperCase()
+
+    for(count=0;count<productlist.length;count=count+1)
+    {
+        var productname = productlist[count].querySelector("p").textContent
+        
+        if(productname.toUpperCase().indexOf(enteredValue)<0)
+        {
+            productlist[count].style.display = "none"
+        }
+        else{
+            productlist[count].style.display = "block"
+        }
+    }
+})
 
 
