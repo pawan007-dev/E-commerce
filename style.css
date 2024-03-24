@@ -39,6 +39,8 @@ body{
     padding-bottom: 5px;
     margin-left: 100px;
     margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 140px;
     background-color:  #1D232C ;
     color: #F2F4F7;
@@ -112,7 +114,7 @@ body{
     justify-content: center;
     gap: 20px;
     padding: 60px;
-    background-color:pale;
+    background-color:cadetblue ;
     
 }
 
@@ -131,6 +133,8 @@ body{
 
 .service{
     padding: 20px;
+    
+    margin-top: 0px;
 }
 
 .service-container-1{
@@ -142,7 +146,10 @@ body{
 .service-container-2{
     display:flex;
     justify-content: space-around;
+    background-color:black ;
     align-items: center;
+    padding: 10px;
+    border-radius: 10px;
     gap: 10px;
 }
 
@@ -244,7 +251,7 @@ body{
 }
 
 .contact{
-    margin-top: 10px;
+    margin-top: 30px;
     margin-left: 400px;
     margin-right: 400px;
     padding: 40px;
@@ -261,8 +268,16 @@ body{
       max-width: 1000%;
 }
 
+.back-ground{
+    background-color:antiquewhite ;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 .product-section{
-    margin-top: 20px;
+    margin-top: 30px;
+    
 }
 
 .product-search{
@@ -293,7 +308,14 @@ body{
     gap: 10px;
     flex-wrap: wrap;
     justify-content: space-around;
+    background-color:antiquewhite ;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
 }
+
+
 p.thick{
     font-weight: bold;
 }
@@ -308,6 +330,11 @@ p.thick{
     flex-basis: 20%;
 }
 
+.product-box2{
+    text-align: center;
+    flex-basis: 20%;
+}
+
 
 
 .product-box img{
@@ -315,6 +342,10 @@ p.thick{
 }
 
 .product-box1 img{
+    border-radius: 10px;
+}
+
+.product-box2 img{
     border-radius: 10px;
 }
 
@@ -466,13 +497,17 @@ p.thick{
     .Fashion2{
         margin-left: 30px;
         margin-right: 30px;
+
     }
 
     .product-box1{
         text-align: center;
         flex-basis: 40%;
-        
-        
+    }
+
+    .product-box2{
+        text-align: center;
+        flex-basis: 40%;
     }
 
 
