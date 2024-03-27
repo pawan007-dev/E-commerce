@@ -159,66 +159,7 @@ body{
     padding: 10px;
 }
 
-.new-arrival{
-    display:inline-block;
-    margin-left: 50px;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding-left: 8%;
-    
-}
 
-.new-arrival-container{
-    justify-content: space-between;
-    position: relative;
-    flex-basis: 20%;
-}
-
-.new-arrival button{
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    margin-top:  10px;
-    color: #1D232C;
-    position: absolute;
-    top: 50%;
-    left: 18%;
-    border-radius: 10px;
-    border: none;
-}
-
-
-
-.most-wanted{
-    display:inline-block;
-    margin-left: 50px;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding-left: 8%;
-    border-radius: 10px;
-}
-
-.most-wanted-container{
-    
-    position: relative;
-    flex-basis: 20%;
-    border-radius: 10px;
-}
-
-.most-wanted button{
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    margin-top:  10px;
-    color: #1D232C;
-    position: absolute;
-    top: 50%;
-    left: 18%;
-    border-radius: 10px;
-    border: none;
-}
 
 .news{
     display: flex;
@@ -350,48 +291,6 @@ p.thick{
     border-radius: 10px;
 }
 
-
-
-.Addtocart{
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
-    width: 140px;
-    background-color: #1D232C;
-    color: white;
-    cursor: pointer;
-    border-radius: 10px;
-    position: relative;
-}
-
-
-.Addtocart1{
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
-    width: 140px;
-    background-color: #1D232C;
-    color: white;
-    cursor: pointer;
-    border-radius: 10px;
-    position: relative;
-}
-
-
-
-
-
-
 /*Register*/
 
 .login{
@@ -490,10 +389,7 @@ p.thick{
         margin-right: 50px;
     }
 
-    .Addtocart{
-        margin-left: 20px;
-        margin-right: 20px;
-    }
+    
 
     .Fashion2{
         margin-left: 30px;
